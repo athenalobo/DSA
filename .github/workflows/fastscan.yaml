@@ -9,7 +9,7 @@ jobs:
   run-fastscan:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code1
+      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Pull docker image
