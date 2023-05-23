@@ -15,7 +15,7 @@ jobs:
       - name: Pull docker image
         run: docker pull castimaging/fast-scan-java-cli
         
-      - name: Run Fast Scan test
+      - name: Run Fast Scan
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: |
